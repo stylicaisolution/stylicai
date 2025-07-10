@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Roboto", serif;
+  cursor: default;
+}
+
+@layer utilities {
+  .text-outline {
+    -webkit-text-stroke: 1px black;
+    color: transparent;
+  }
+}
