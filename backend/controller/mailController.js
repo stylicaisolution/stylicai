@@ -6,12 +6,12 @@ dotenv.config()
 
 
 const transporter = nodemailer.createTransport({
-  host: "email-smtp.us-east-1.amazonaws.com", // Replace with your SES SMTP endpoint
+  host: "smtp.hostinger.com", // Replace with your SES SMTP endpoint
   port: 587, // For secure connection
   secure: false, // Use TLS
   auth: {
-    user: process.env.USER_USERNAME, // SES SMTP username
-    pass: process.env.USER_APP_PASS, // SES SMTP password
+    user: "info@stylic.ai", // SES SMTP username
+    pass: 'Har@#0401', // SES SMTP password
   },
   tls: {
     rejectUnauthorized: true,
@@ -109,13 +109,13 @@ export const sendMail = async (req, res, next) => {
             <div class="product-details">
               <h2>AI Photoshoot (Models without limit)</h2>
               <p>At Stylic.ai, we are redefining fashion photography
-                  through the power of AI. Traditional model photoshoots
+                  through the power of AI. Model photoshoots
                   are expensive, time-consuming, and often restrictive.
                   Our cutting-edge AI technology allows fashion brands,
                   e-commerce stores, and garment manufacturers to
                   generate high-quality, photorealistic model images
                   without the need for physical photoshoots.</p>
-              <a href="https://stylic.ai/contact" class="button">Connect Now</a>
+              <a href="https://stylic.ai/contact-us" class="button">Connect Now</a>
             </div>
           </div>
       

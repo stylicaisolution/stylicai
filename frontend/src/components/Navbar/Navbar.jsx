@@ -36,7 +36,7 @@ const Navbar = () => {
         </button>
 
         <iframe
-          src="https://calendly.com/stylicai/product-demo?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=a99431&month=2025-02"
+          src="https://calendly.com/info-stylicai/30min"
           title="calendy"
           className="w-full h-full"
         ></iframe>
@@ -121,6 +121,11 @@ const Navbar = () => {
           <a href="https://app.stylic.ai" className="hidden md:block">
             <button className="bg-golden text-white px-6 py-2 rounded-full hover:bg-navyblue transition duration-300">
               Login
+            </button>
+          </a>
+          <a href="/registeruser" className="hidden md:block">
+            <button className="bg-golden text-white px-6 py-2 rounded-full hover:bg-navyblue transition duration-300">
+              Register
             </button>
           </a>
         </div>

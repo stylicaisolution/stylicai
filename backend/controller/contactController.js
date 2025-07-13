@@ -17,12 +17,12 @@ export const createContact = async (req, res, next) => {
 
     // Configure the email transporter
     const transporter = nodemailer.createTransport({
-      host: "email-smtp.us-east-1.amazonaws.com", // Replace with your SES SMTP endpoint
+      host: "smtp.hostinger.com", // Replace with your SES SMTP endpoint
       port: 587, // For secure connection
       secure: false, // Use TLS
       auth: {
-        user: process.env.USER_USERNAME, // SES SMTP username
-        pass: process.env.USER_APP_PASS, // SES SMTP password
+        user: "info@stylic.ai", // SES SMTP username
+        pass: "Har@#0401", // SES SMTP password
       },
       tls: {
         rejectUnauthorized: true,

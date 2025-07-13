@@ -224,10 +224,10 @@ const Policy = () => {
           <p className="text-gray-600">
             For any questions or concerns regarding this policy, contact us at:{" "}
             <a
-              href="mailto:info@anantasolution.com"
+              href="mailto:info@stylic.ai"
               className="text-indigo-600 hover:text-indigo-800"
             >
-              info@anantasolution.com
+              info@stylic.ai
             </a>
           </p>
         </section>

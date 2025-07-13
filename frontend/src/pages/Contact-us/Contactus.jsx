@@ -60,7 +60,7 @@ const Contactus = () => {
           message: "",
         });
         toast.success(
-          "Congratulations !! Our Representative Will Call You Shortly"
+          "Congratulations!! Our Representative Will Call You Shortly"
         );
       } catch (err) {
         toast.error(err.response.data?.message || "Something went wrong.");
@@ -105,7 +105,7 @@ const Contactus = () => {
 
                 {/* Phone */}
                 <p className="text-gray-900 font-medium text-lg">
-                  +91 63566 65365
+                  +91 95583 77556
                 </p>
 
                 {/* Email */}

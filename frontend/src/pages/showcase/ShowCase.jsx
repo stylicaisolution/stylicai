@@ -67,10 +67,6 @@ function ShowCase() {
         thumbnails: blazerThumbnails,
         images: blazerImages,
       },
-      "girl's shirts": {
-        thumbnails: girlShirtThumbnails,
-        images: girlShirtImages,
-      },
       "boy's shirts": {
         thumbnails: boysShirtThumbnails,
         images: boysShirtImages,
@@ -102,10 +98,6 @@ function ShowCase() {
       "boy's jeans": {
         thumbnails: boysJeansThumbnails,
         images: boysJeansImages,
-      },
-      lingerie: {
-        thumbnails: braThumbnails,
-        images: braImages,
       },
       "t-shirts": {
         thumbnails: tshirtThumbnails,

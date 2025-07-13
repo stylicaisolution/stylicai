@@ -47,10 +47,6 @@ const Gallery = () => {
       thumbnails: blazerThumbnails,
       images: blazerImages,
     },
-    "girl's shirt": {
-      thumbnails: girlShirtThumbnails,
-      images: girlShirtImages,
-    },
     "boy's shirt": {
       thumbnails: boysShirtThumbnails,
       images: boysShirtImages,
@@ -71,10 +67,6 @@ const Gallery = () => {
       thumbnails: camisoleThumbnails,
       images: camisoleImages,
     },
-    // jeans: {
-    //   thumbnails: jeansThumbnails,
-    //   images: jeansImages,
-    // },
     dress: {
       thumbnails: dressThumbnails,
       images: dressImages,
@@ -82,10 +74,6 @@ const Gallery = () => {
     "boy's jeans": {
       thumbnails: boysJeansThumbnails,
       images: boysJeansImages,
-    },
-    lingerie: {
-      thumbnails: braThumbnails,
-      images: braImages,
     },
     "t-shirt": {
       thumbnails: tshirtThumbnails,
