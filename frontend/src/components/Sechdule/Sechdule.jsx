@@ -18,7 +18,7 @@ const Sechdule = () => {
             </button>
 
             <iframe
-              src="https://calendly.com/stylicai/product-demo?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=a99431&month=2025-02"
+              src="https://calendly.com/info-stylicai/30min"
               title="calendy"
               className="w-full h-full"
             ></iframe>
