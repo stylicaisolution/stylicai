@@ -73,7 +73,7 @@ const App = () => {
           }
         />
         <Route
-          path="/registeruser"
+          path="/register-user"
           element={
             <>
               <Navbar />
