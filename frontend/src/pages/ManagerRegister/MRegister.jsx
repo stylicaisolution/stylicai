@@ -247,8 +247,8 @@ export default function ManagerForm() {
         email: "",
         password: "",
         mobileno: "",
-        credit_balance: 1,
-        gold_balance: 1,
+        credit_balance: 5,
+        gold_balance: 3,
         added_user_id: "679dae85dcf35e5e1dab90ad",
         added_user_type: "superadmin",
       });
@@ -259,8 +259,8 @@ export default function ManagerForm() {
         email: false,
         password: false,
         mobileno: false,
-        credit_balance: 1,
-        gold_balance: 1,
+        credit_balance: 5,
+        gold_balance: 3,
         added_user_id: "679dae85dcf35e5e1dab90ad",
         added_user_type: "superadmin",
       });
@@ -271,8 +271,8 @@ export default function ManagerForm() {
         email: "",
         password: "",
         mobileno: "",
-        credit_balance: 1,
-        gold_balance: 1,
+        credit_balance: 5,
+        gold_balance: 3,
         added_user_id: "679dae85dcf35e5e1dab90ad",
         added_user_type: "superadmin",
       });
@@ -304,8 +304,8 @@ export default function ManagerForm() {
         email: "",
         password: "",
         mobileno: "",
-        credit_balance: 1,
-        gold_balance: 1,
+        credit_balance: 5,
+        gold_balance: 3,
         added_user_id: "679dae85dcf35e5e1dab90ad",
         added_user_type: "superadmin",
       });
