@@ -154,6 +154,14 @@ const Footer = () => {
           <Link to="/privacy-policy" className="text-golden hover:underline">
             Privacy Policy
           </Link>
+          <span className="hidden md:block"> | </span>
+          <Link to="/shipping-delivery-policy" className="text-golden hover:underline">
+            Shipping & Delivery
+          </Link>
+          <span className="hidden md:block"> | </span>
+          <Link to="/cancellation-refund-policy" className="text-golden hover:underline">
+            Cancellation & Refund
+          </Link>
         </div>
       </div>
     </div>

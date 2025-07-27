@@ -12,6 +12,8 @@ import ShowCase from "./pages/showcase/ShowCase";
 import { ToastContainer } from "react-toastify";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import Policy from "./pages/PrivacyPolicy/Policy";
+import Ship from "./pages/ShippingAndDeliveryPolicy/Shipping";
+import Refunds from "./pages/CancellationAndRefund/Refund";
 import Terms from "./pages/TermsAndCondition/Terms";
 import Blog from "./components/Blogs/Blog";
 import Blogpage from "./components/Blogs/Blogpage";
@@ -98,6 +100,26 @@ const App = () => {
             <>
               <Navbar />
               <Terms />
+              <Footer />
+            </>
+          }
+        ></Route>
+        <Route
+          path="/shipping-delivery-policy"
+          element={
+            <>
+              <Navbar />
+              <Ship />
+              <Footer />
+            </>
+          }
+        ></Route>
+        <Route
+          path="/cancellation-refund-policy"
+          element={
+            <>
+              <Navbar />
+              <Refunds />
               <Footer />
             </>
           }
