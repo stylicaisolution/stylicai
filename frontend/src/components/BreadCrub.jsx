@@ -23,6 +23,10 @@ function BreadCrub() {
                 return "Terms And Conditions"
             case "privacy-policy":
                 return "Privacy Policy"
+            case "shipping-delivery-policy":
+                return "Shipping & Delivery"
+            case "cancellation-refund-policy":
+                return "Cancellation & Refund"
             default :
                 return null
         } 
