@@ -118,11 +118,6 @@ const Navbar = () => {
                 Login
               </button>
             </a>
-            <Link to={"/register-user"}>
-              <button className="bg-golden text-white px-6 py-2 rounded-full hover:bg-navyblue transition duration-300">
-                Register
-              </button>
-            </Link>
           </div>
 
           {/* Hamburger Menu for Small Screens */}
